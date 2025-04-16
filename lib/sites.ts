@@ -1,0 +1,313 @@
+import type { SiteStatus } from "./types"
+
+// Liste complète des sites à monitorer
+export const sites: SiteStatus[] = [
+  {
+    id: "site1",
+    name: "philomania.fr",
+    url: "https://www.philomania.fr",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 124,
+    uptime: {
+      percentage: 99.2,
+    },
+  },
+  {
+    id: "site2",
+    name: "pro.festivalscope.com",
+    url: "https://pro.festivalscope.com",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 235,
+    uptime: {
+      percentage: 97.8,
+    },
+  },
+  {
+    id: "site3",
+    name: "artekinofestival.arte.tv",
+    url: "https://artekinofestival.arte.tv",
+    status: "slow",
+    lastChecked: new Date().toISOString(),
+    responseTime: 187,
+    uptime: {
+      percentage: 98.5,
+    },
+  },
+  {
+    id: "site4",
+    name: "artisansdufilm.com",
+    url: "https://artisansdufilm.com",
+    status: "down",
+    lastChecked: new Date().toISOString(),
+    responseTime: 312,
+    uptime: {
+      percentage: 96.3,
+    },
+  },
+  {
+    id: "site5",
+    name: "tap-poitiers.com",
+    url: "https://tap-poitiers.com",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 145,
+    uptime: {
+      percentage: 99.7,
+    },
+  },
+  {
+    id: "site6",
+    name: "cabocher.fr",
+    url: "https://cabocher.fr",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 203,
+    uptime: {
+      percentage: 98.7,
+    },
+  },
+  {
+    id: "site7",
+    name: "labo-m.net",
+    url: "https://labo-m.net",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 278,
+    uptime: {
+      percentage: 98.3,
+    },
+  },
+  {
+    id: "site8",
+    name: "bonheur-rouge.fr",
+    url: "https://bonheur-rouge.fr",
+    status: "slow",
+    lastChecked: new Date().toISOString(),
+    responseTime: 198,
+    uptime: {
+      percentage: 96.9,
+    },
+  },
+  {
+    id: "site9",
+    name: "30ansdanse.fr",
+    url: "https://30ansdanse.fr",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 256,
+    uptime: {
+      percentage: 98.1,
+    },
+  },
+  {
+    id: "site10",
+    name: "shaketonpolitique.org",
+    url: "https://shaketonpolitique.org",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 189,
+    uptime: {
+      percentage: 97.2,
+    },
+  },
+  {
+    id: "site11",
+    name: "maeva-delacroix.com",
+    url: "https://maeva-delacroix.com",
+    status: "down",
+    lastChecked: new Date().toISOString(),
+    responseTime: 345,
+    uptime: {
+      percentage: 95.4,
+    },
+  },
+  {
+    id: "site12",
+    name: "patrickguedj.com",
+    url: "https://patrickguedj.com",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 167,
+    uptime: {
+      percentage: 99.5,
+    },
+  },
+  {
+    id: "site13",
+    name: "melaniepavy.fr",
+    url: "https://melaniepavy.fr",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 217,
+    uptime: {
+      percentage: 98.9,
+    },
+  },
+  {
+    id: "site14",
+    name: "parre.fr",
+    url: "https://parre.fr",
+    status: "slow",
+    lastChecked: new Date().toISOString(),
+    responseTime: 301,
+    uptime: {
+      percentage: 97.5,
+    },
+  },
+  {
+    id: "site15",
+    name: "nouvelleechosnomie.lesechos.fr",
+    url: "https://nouvelleechosnomie.lesechos.fr",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 190,
+    uptime: {
+      percentage: 99.1,
+    },
+  },
+  {
+    id: "site16",
+    name: "paristower13.com",
+    url: "https://paristower13.com",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 156,
+    uptime: {
+      percentage: 99.9,
+    },
+  },
+  {
+    id: "site17",
+    name: "radioclassique.fr",
+    url: "https://radioclassique.fr",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 210,
+    uptime: {
+      percentage: 98.8,
+    },
+  },
+  {
+    id: "site18",
+    name: "lafinancepourtous.com",
+    url: "https://lafinancepourtous.com",
+    status: "slow",
+    lastChecked: new Date().toISOString(),
+    responseTime: 275,
+    uptime: {
+      percentage: 97.1,
+    },
+  },
+  {
+    id: "site19",
+    name: "cinematheque.fr/gitai",
+    url: "https://cinematheque.fr/gitai",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 199,
+    uptime: {
+      percentage: 98.6,
+    },
+  },
+  {
+    id: "site20",
+    name: "cinematheque.fr/demy",
+    url: "https://cinematheque.fr/demy",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 223,
+    uptime: {
+      percentage: 96.8,
+    },
+  },
+  {
+    id: "site21",
+    name: "commeunpoissondanslair.com",
+    url: "https://commeunpoissondanslair.com",
+    status: "down",
+    lastChecked: new Date().toISOString(),
+    responseTime: 329,
+    uptime: {
+      percentage: 95.9,
+    },
+  },
+  {
+    id: "site22",
+    name: "enkibilal.arts-et-metiers.net",
+    url: "https://enkibilal.arts-et-metiers.net",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 245,
+    uptime: {
+      percentage: 97.4,
+    },
+  },
+  {
+    id: "site23",
+    name: "lenotre.chateauversailles.fr",
+    url: "https://lenotre.chateauversailles.fr",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 202,
+    uptime: {
+      percentage: 98.2,
+    },
+  },
+  {
+    id: "site24",
+    name: "1914dernieresnouvelles.arte.tv",
+    url: "https://1914dernieresnouvelles.arte.tv",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 189,
+    uptime: {
+      percentage: 99.3,
+    },
+  },
+  {
+    id: "site25",
+    name: "louvre-lens.arte.tv",
+    url: "https://louvre-lens.arte.tv/fr",
+    status: "slow",
+    lastChecked: new Date().toISOString(),
+    responseTime: 267,
+    uptime: {
+      percentage: 97.9,
+    },
+  },
+  {
+    id: "site26",
+    name: "mistral-urbain.arte.tv",
+    url: "https://mistral-urbain.arte.tv/fr",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 213,
+    uptime: {
+      percentage: 98.4,
+    },
+  },
+  {
+    id: "site27",
+    name: "toutestvrai.arte.tv",
+    url: "https://toutestvrai.arte.tv",
+    status: "up",
+    lastChecked: new Date().toISOString(),
+    responseTime: 175,
+    uptime: {
+      percentage: 99.6,
+    },
+  },
+  {
+    id: "site28",
+    name: "traena.liveweb.arte.tv",
+    url: "https://traena.liveweb.arte.tv/fr",
+    status: "down",
+    lastChecked: new Date().toISOString(),
+    responseTime: 287,
+    uptime: {
+      percentage: 96.5,
+    },
+  },
+]
